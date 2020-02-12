@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <ol id='first-ol'>
+        <li>
+            <a href="">Example</a>
+        </li>
+        <li id='highlight'>
+            Apple
+        </li>
+        <li id='highlight'>
+            Bannana
+        </li>
+        <li id='highlight'>
+            Guava
+        </li>
+        <li>
+            <a href="">Example</a>
+        </li>
+    </ol>
+    <ol id='second-ol'>
+        <li id='first-item'>
+            <a href="">Example</a>
+            <a href="">Example2</a>
+            <a href="">Example3</a>
+            nonLink
+            nonLink
+            nonLink
+        </li>
+        <li>
+            Apple
+        </li>
+        <li>
+            Bannana
+        </li>
+        <li id='test'>
+            Guava
+        </li>
+        <li>
+            <a href="">Example</a>
+        </li>
+    </ol>
+    
+    <div id='container'>
+        <p id='question'>What is the capital of Bulgaria?</p>
+
+        <input type="text" id='answer-box'/>
+
+        <p id='result'></p>
+
+        <p id='answer'></p>
+
+        <button id='submit-button'>Submit</button>
+    </div>
+
+    <div id='create'>
+        <div class='color-box after'>
+            After
+        </div>
+        <div class='color-box before'>
+            Before
+        </div>
+        <div class='color-box append'>
+            Append
+        </div>
+        <div class='color-box prepend'>
+            Prepend
+        </div>
+    </div>
+
+    <div id='attributes'>
+        <a id='change' target="_blank" href="www.google.com">Yahoo</a>
+        <a id='change' target="_self" href="www.yahoo.com">google</a>
+
+        <button  class="toRemove" id='linkFix'>Fix my links</button>
+    </div>
+    <button class='button' id='button'>Change</button>
+
+    <div id='clone-target'>
+        <p class="blue">Click to toggle</p>
+        <p class="blue highlight">highlight</p>
+        <p class="blue">on these</p>
+        <p class="blue">paragraphs</p>
+    </div>
+    <button class='clone-button' id='clone-button'>Clone</button>
+    <script src='assets/js/script.js'></script>
+</body>
+</html>
